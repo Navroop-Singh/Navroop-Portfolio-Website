@@ -149,7 +149,35 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
+	} 
+	
+	.posts article {
+    background-color: #ffffff;
+    color: #212931;
+	
 	}
+	
+	.posts article p {
+    color: #212931 !important; /* Force dark text */
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    text-align: left;
+	}
+	
+	.posts article .image.fit {
+    margin-bottom: 1.5rem;
+	}
+
+	.posts article header h2 {
+    color: #212931;
+    margin-bottom: 1rem;
+	}
+
+	.posts article .actions {
+    margin-top: 1.5rem;
+	}
+	
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
